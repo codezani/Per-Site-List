@@ -3,16 +3,24 @@
 **One offline to-do list per website.**  
 No login. No tracking. No data leaves your browser.
 
-[![Chrome](https://img.shields.io/badge/Chrome-Ready-blue?logo=google-chrome)](https://github.com/your-username/per-site-list/releases)
-[![Firefox](https://img.shields.io/badge/Firefox-Under%20Review-orange?logo=firefox)](https://addons.mozilla.org/en-US/firefox/addon/per-site-list/)
+[![Firefox Add-on](https://img.shields.io/amo/v/per-site-list?label=Firefox%20Add-on&color=orange&logo=firefox)](https://addons.mozilla.org/en-US/firefox/addon/per-site-list/)
+[![Chrome Ready](https://img.shields.io/badge/Chrome-Ready-blue?logo=google-chrome)](https://github.com/your-username/per-site-list/releases/latest)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
+[![Downloads](https://img.shields.io/amo/d/per-site-list?label=Downloads)](https://addons.mozilla.org/en-US/firefox/addon/per-site-list/statistics/)
+
+---
+
+## 🚀 Live on Firefox Add-ons!
+
+**Install with one click:**  
+[Download from Firefox Add-ons](https://addons.mozilla.org/en-US/firefox/addon/per-site-list/)
 
 ---
 
 ## Features
 
 - **Separate list for every domain** (`github.com`, `youtube.com`, etc.)
-- **100% local storage** using `chrome.storage.local` / `browser.storage.local`
+- **100% local storage** using `browser.storage.local`
 - Add, check, delete items instantly
 - Works on `http`, `https`, `localhost`, and `file://`
 - **Zero data collection** – privacy-first design
@@ -30,24 +38,23 @@ No login. No tracking. No data leaves your browser.
 
 ## Installation
 
+### Firefox (Official)
+[Install from Firefox Add-ons](https://addons.mozilla.org/en-US/firefox/addon/per-site-list/)
+
 ### Chrome / Edge / Brave / Opera
-1. Download the latest release:  
+1. Download:  
    [Per-Site-List-Chrome.zip](https://github.com/your-username/per-site-list/releases/latest/download/Per-Site-List-Chrome.zip)
 2. Go to `chrome://extensions`
 3. Enable **Developer mode**
 4. Click **"Load unpacked"**
 5. Select the extracted folder
 
-### Firefox
-**Coming soon!**  
-Currently under review on [addons.mozilla.org](https://addons.mozilla.org/en-US/firefox/addon/per-site-list/)
-
 ---
 
 ## How It Works
 
 - Each domain gets its own key: `list_example.com`
-- Data stored in `chrome.storage.local` (Chrome) or `browser.storage.local` (Firefox)
+- Data stored in `browser.storage.local`
 - No background scripts, no network calls
 - Fully offline, even after restart
 
@@ -69,6 +76,7 @@ Currently under review on [addons.mozilla.org](https://addons.mozilla.org/en-US/
 - All lists stay in your browser
 - No permissions beyond `storage` and `activeTab`
 - No analytics, no telemetry, no ads
+- [Mozilla Privacy Review](https://addons.mozilla.org/en-US/firefox/addon/per-site-list/) – **"No data collected"**
 
 ---
 
@@ -78,5 +86,5 @@ Currently under review on [addons.mozilla.org](https://addons.mozilla.org/en-US/
 # Clone the repo
 git clone https://github.com/your-username/per-site-list.git
 
-# For Chrome: Load the folder via chrome://extensions
 # For Firefox: Load via about:debugging
+# For Chrome: Load via chrome://extensions
